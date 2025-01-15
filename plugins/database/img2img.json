@@ -1,0 +1,7 @@
+{
+  "62895328108012@s.whatsapp.net": {
+    "model": "absolutereality_v181.safetensors [3d9d4d2b]",
+    "style": "3d-model",
+    "sampler": "DPM++ 3M SDE Karras"
+  }
+}
