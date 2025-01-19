@@ -1,13 +1,24 @@
 {
-  "todos": {},
+  "todos": {
+    "62895328108012@s.whatsapp.net": {
+      "1737009150908": {
+        "message": "Test",
+        "time": "2025-01-16T06:34:00.000Z",
+        "sender": "62895328108012@s.whatsapp.net"
+      }
+    }
+  },
   "settings": {
     "62895328108012@s.whatsapp.net": {
-      "enabled": false
+      "enabled": true
     },
     "120363318617309332@g.us": {
       "enabled": true
     },
     "120363332510915057@newsletter": {
+      "enabled": true
+    },
+    "120363337293909300@g.us": {
       "enabled": true
     }
   }

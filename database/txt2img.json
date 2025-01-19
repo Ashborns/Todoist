@@ -1,7 +1,0 @@
-{
-  "62895328108012@s.whatsapp.net": {
-    "model": "absolutereality_v181.safetensors [3d9d4d2b]",
-    "style": "analog-film",
-    "sampler": "DPM++ 3M SDE"
-  }
-}

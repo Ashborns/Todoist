@@ -4,7 +4,7 @@ const handler = async (m, {
   text
 }) => {
   db.data.dbbot.temamenu = db.data.dbbot.temamenu ? db.data.dbbot.temamenu : {
-    id: 6
+    id: 1
   };
   let themes = {
     0: "Buttons",
