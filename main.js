@@ -431,7 +431,7 @@ async function connectionUpdate(update) {
       const name = conn.getName(jid) || "Taylor-V2";
       conn.user.name = name;
       db.data.dbbot.temamenu = {
-        id: 6
+        id: 1
       };
       spinner.succeed(chalk.bgYellow.black(`Connected as ${name}\n`));
       const currentTime = moment.tz("Asia/Makassar");

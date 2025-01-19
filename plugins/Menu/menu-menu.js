@@ -10,9 +10,9 @@ const handler = async (m, {
 }) => {
   m.react(wait);
   ["aku-ngakak", "anjay", "ara-ara2", "ara-ara-cowok", "ara-ara", "arigatou", "assalamualaikum", "asu", "ayank", "bacot", "bahagia-aku", "baka", "bansos", "beat-box2", "beat-box", "biasalah", "bidadari", "bot", "buka-pintu", "canda-anjing", "cepetan", "china", "cuekin-terus", "daisuki-dayo", "daisuki", "dengan-mu", "Donasiku", "gaboleh-gitu", "gak-lucu", "gamau", "gay", "gelay", "gitar", "gomenasai", "hai-bot", "hampa", "hayo", "hp-iphone", "ih-wibu", "i-like-you", "india", "karna-lo-wibu", "kiss", "kontol", "ku-coba", "maju-wibu", "makasih", "mastah", "menuasli", "menuku", "menu", "MenuYuki", "nande-nande", "nani", "ngadi-ngadi", "nikah", "nuina", "onichan", "ownerku", "owner-sange", "pak-sapardi", "pale", "pantek", "pasi-pasi", "punten", "sayang", "siapa-sih", "sudah-biasa", "summertime", "tanya-bapak-lu", "to-the-bone", "wajib", "waku", "woi", "yamete", "yowaimo", "yoyowaimo"].getRandom();
-  const caption = `${m.name || ""} - @${m.sender.split("@")[0]} ${ucapan}\n*\`🌟 Selamat datang di dashboard bot pertama kami\`*!\n\n> ────────────────\n- 1. Kami harap Anda menikmati pengalaman pertama berinteraksi dengan chatbot kami yang ramah dan intuitif. ${readMore}\n\n- 2. Kami telah menyertakan berbagai fitur untuk membantu Anda mengelola dan meningkatkan kinerja bot Anda.\n\n- 3. Semoga Anda menikmati menggunakan dashboard chatbot kami dan mendapatkan manfaat dari fitur-fitur yang kami tawarkan.\n> ────────────────\n\n\n         *\`[ LIST MENU ]\`*\n- ${_p}menulist\n- ${_p}allmenu\n`;
+  const caption = `${m.name || ""} - @${m.sender.split("@")[0]} ${ucapan}\n*\`🌟 Selamat datang di dashboard Todoist\`*!\n\n> ────────────────\n- Project 6 *TODOIST* ${readMore}\n\n\n         *\`[ LIST MENU ]\`*\n- ${_p}todoist\n- ${_p}listtodoist\n- ${_p}deltodoist\n- ${_p}help todoist\n`;
   db.data.dbbot.temamenu = db.data.dbbot.temamenu || {
-    id: 6
+    id: 1
   };
   const {
     id
@@ -153,7 +153,7 @@ const handler = async (m, {
     }
     break;
     default:
-      db.data.dbbot.temamenu.id = 6;
+      db.data.dbbot.temamenu.id = 1;
   }
   m.react(sukses);
 };

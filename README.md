@@ -1,319 +1,480 @@
-<p align="center">
-  <img src="https://wsrv.nl/?url=https://github.com/AyGemuy.png?size=500&w=300&h=300&fit=cover&mask=circle" width="75%" style="margin-left: auto;margin-right: auto;display: block;">
-</p>
+# 📅 WhatsApp Todoist Bot
 
-<h1 align="center">Taylor</h1>
+Sebuah plugin pengingat tugas (reminder) yang powerful untuk WhatsApp Bot, memungkinkan pengguna untuk membuat, mengelola, dan menerima pengingat tugas secara otomatis.
 
-<p align="center">
-  <a href="https://github.com/AyGemuy/Taylor-V2"><img src="http://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&vCenter=true&multiline=false&lines=Readme+Hanyalah+Marketing;Base+ori+by+BochilGaming;Recode+By+Wudysoft;Give+star+and+forks+this+Repo+:D;Follow+My+Github" alt="UwU"></a>
-</p>
+## 📋 Daftar Isi
+- [Prasyarat](#prasyarat)
+- [Instalasi](#instalasi)
+- [Fitur](#fitur)
+- [Penggunaan](#penggunaan)
+- [Arsitektur & Logika Program](#arsitektur--logika-program)
+- [Konten File](#konten-file)
 
-<p align="center">
-  <a href="#"><img title="Taylor" src="https://img.shields.io/badge/Taylor-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-</p>
+## 🛠 Prasyarat
 
-<p align="center">
-  <a href=""><img title="Author" src="https://img.shields.io/badge/AUTHOR-Wudysoft-blue.svg?style=for-the-badge&logo=github"></a>
-</p>
+- Ubuntu/Debian OS
+- Node.js v14 atau lebih tinggi
+- Git
+- FFmpeg
+- ImageMagick
 
-<p align="center">
-  <a href="https://github.com/AyGemuy/Taylor-V2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/AyGemuy/Taylor-V2?label=Forks&color=blue&style=flat-square"></a>
-  <a href="https://github.com/AyGemuy/Taylor-V2/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/AyGemuy/Taylor-V2?label=Watchers&color=green&style=flat-square"></a>
-  <a href="https://github.com/AyGemuy/Taylor-V2/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/AyGemuy/Taylor-V2?label=Stars&color=yellow&style=flat-square"></a>
-  <a href="https://github.com/AyGemuy/Taylor-V2/graphs/contributors"><img title="Contributors" src="https://img.shields.io/github/contributors/AyGemuy/Taylor-V2?label=Contributors&color=blue&style=flat-square"></a>
-  <a href="https://github.com/AyGemuy/Taylor-V2/issues"><img title="Issues" src="https://img.shields.io/github/issues/AyGemuy/Taylor-V2?label=Issues&color=success&style=flat-square"></a>
-  <a href="https://github.com/AyGemuy/Taylor-V2/issues?q=is%3Aissue+is%3Aclosed"><img title="Closed Issues" src="https://img.shields.io/github/issues-closed/AyGemuy/Taylor-V2?label=Issues&color=red&style=flat-square"></a>
-  <a href="https://github.com/AyGemuy/Taylor-V2/pulls"><img title="Pull Requests" src="https://img.shields.io/github/issues-pr/AyGemuy/Taylor-V2?label=PullRequest&color=success&style=flat-square"></a>
-  <a href="https://github.com/AyGemuy/Taylor-V2/pulls?q=is%3Apr+is%3Aclosed"><img title="Closed Pull Requests" src="https://img.shields.io/github/issues-pr-closed/AyGemuy/Taylor-V2?label=PullRequest&color=red&style=flat-square"></a>
-</p>
+## ⚙️ Instalasi
 
-# `Whatsapp` <a href="https://wa.me/6282195322106">
-[![BOT WHATSAPP](https://img.shields.io/badge/WhatsApp%20BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6282195322106) 
-[![ONWER](https://img.shields.io/badge/Owner%20BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6282195322106) 
-[![GROUP OFFICIAL](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/GoHmb4noThh92L8FFf79Bh) 
----------
-
-<details>
-<summary>KELEBIHAN 📍</summary>
-
-| Kelebihan | Check |
-|--------|--------|
-| **Fast Respon** |[✔️](https://github.com/AyGemuy/Taylor-V2) |
-| **No Internet** |[✔️](https://github.com/AyGemuy/Taylor-V2) |
-| **Simple** |[✔️](https://github.com/AyGemuy/Taylor-V2) |
-| **Multi Device** |[✔️](https://github.com/AyGemuy/Taylor-V2) |
-
-</details>
-
-<details>
-<summary>FITUR 📍</summary>
-
-| Fitur | Check |
-|--------|--------|
-| **Downloader** |[✔️](https://github.com/AyGemuy/Taylor-V2) |
-| **Internet** |[✔️](https://github.com/AyGemuy/Taylor-V2) |
-| **Game Rpg** |[✔️](https://github.com/AyGemuy/Taylor-V2) |
-| **Nsfw** |[✔️](https://github.com/AyGemuy/Taylor-V2) |
-| **Sticker** |[✔️](https://github.com/AyGemuy/Taylor-V2) |
-| **Game** |[✔️](https://github.com/AyGemuy/Taylor-V2) |
-| **Kerang Ajaib** |[✔️](https://github.com/AyGemuy/Taylor-V2) |
-| **Quotes** |[✔️](https://github.com/AyGemuy/Taylor-V2) |
-| **Anime** |[✔️](https://github.com/AyGemuy/Taylor-V2) |
-| **Premium** |[✔️](https://github.com/AyGemuy/Taylor-V2) |
-| **Tools** |[✔️](https://github.com/AyGemuy/Taylor-V2) |
-| **Exec** |[✔️](https://github.com/AyGemuy/Taylor-V2) |
-| **React** |[✔️](https://github.com/AyGemuy/Taylor-V2) |
-
-</details>
-<details>
-<summary>SETTING</summary>
-
-- Owner Number [![Here](https://img.shields.io/badge/Link-Here-blue)](https://github.com/AyGemuy/Taylor-V2/blob/2b7ce09d6dc73134d34d0ccf970d0efc95901c97/config.js#L13C17-L13C17)
-- Owner Name [![Here](https://img.shields.io/badge/Link-Here-blue)](https://github.com/AyGemuy/Taylor-V2/blob/2b7ce09d6dc73134d34d0ccf970d0efc95901c97/config.js#L60)
-- Bot Name [![Here](https://img.shields.io/badge/Link-Here-blue)](https://github.com/AyGemuy/Taylor-V2/blob/2b7ce09d6dc73134d34d0ccf970d0efc95901c97/config.js#L59)
-
-</details>
-
-<details>
-<summary>DEPLOY</summary>
-
-### Heroku Buildpack
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kannachann/KannaBOT-MD)
-
-| BuildPack | LINK |
-|-----------|------|
-| **FFMPEG** | [![here](https://img.shields.io/badge/Link-here-blue)](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
-| **IMAGEMAGICK** | [![here](https://img.shields.io/badge/Link-here-blue)](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
-
-### Deploy on Replit
-
-[![Run on Repl.it](https://repl.it/badge/github/quiec/wa-bot)](https://replit.com/@AyGemuy/Taylor-V2)
-
-### Deploy on Railway
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/0DTscs?referralCode=AyGemuy)
-
-### Deploy on Okteto
-
-[![Deploy on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com)
-
-</details>
-
-<details>
-<summary>1. FORCE CMD INSTALL</summary>
-
-```bash
-$ npm install --legacy-peer-deps
-```
-
-</details>
-
-<details>
-<summary>2. TERMUX USER</summary>
-
-```bash
-$ pkg upgrade && pkg update
-$ pkg install git -y
-$ pkg install nodejs -y
-$ pkg install ffmpeg -y
-$ pkg install imagemagick -y
-$ git clone https://github.com/AyGemuy/Taylor-V2/
-$ cd Taylor-master
-$ npm i
-```
-
-If error try using yarn instead of npm, see [here](https://github.com/kannachann/KannaBOT-MD#if-npm-install-failed--try--using-yarn-instead-of-npm)
-
-```bash
-$ node .
-```
-
-</details>
-
-<details>
-<summary>3. OPTIONS</summary>
-
-```bash
-$ node . --qr
-$ node . --mobile
-$ node . --pairing-code
-$ node . --singleauth
-```
-
-</details>
-
-<details>
-<summary>4. CONTOH</summary>
-
-```bash
-$ node . --pairing-code --db [mongodb link]
-```
-
-</details>
-
-<details>
-<summary>5. TERMUX WITH UBUNTU</summary>
+### 1. Setup Ubuntu Dependencies
 
 ```bash
 apt update && apt full-upgrade
-apt install wget curl git proot-distro
-proot-distro install ubuntu
-echo "proot-distro login ubuntu" > $PREFIX/bin/ubuntu
-ubuntu
+apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev \
+libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev dbus-x11 ffmpeg2theora \
+ffmpegfs ffmpegthumbnailer ffmpegthumbnailer-dbg ffmpegthumbs libavcodec-dev \
+libavcodec-extra libavcodec-extra58 libavdevice-dev libavdevice58 libavfilter-dev \
+libavfilter-extra libavfilter-extra7 libavformat-dev libavformat58 libavifile-0.7-bin \
+libavifile-0.7-common libavifile-0.7c2 libavresample-dev libavresample4 libavutil-dev \
+libavutil56 libpostproc-dev libpostproc55 graphicsmagick graphicsmagick-dbg \
+graphicsmagick-imagemagick-compat graphicsmagick-libmagick-dev-compat groff \
+imagemagick-6.q16hdri imagemagick-common libchart-gnuplot-perl libgraphics-magick-perl \
+libgraphicsmagick++-q16-12 libgraphicsmagick++1-dev
 ```
 
-</details>
-
-<details>
-<summary>6. INSTALLING REQUIRED PACKAGES</summary>
-
+### 2. Install Node.js
 ```bash
-ubuntu
-apt update && apt full-upgrade
-apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev dbus-x11 ffmpeg2theora ffmpegfs ffmpegthumbnailer ffmpegthumbnailer-dbg ffmpegthumbs libavcodec-dev libavcodec-extra libavcodec-extra58 libavdevice-dev libavdevice58 libavfilter-dev libavfilter-extra libavfilter-extra7 libavformat-dev libavformat58 libavifile-0.7-bin libavifile-0.7-common libavifile-0.7c2 libavresample-dev libavresample4 libavutil-dev libavutil56 libpostproc-dev libpostproc55 graphicsmagick graphicsmagick-dbg graphicsmagick-imagemagick-compat graphicsmagick-libmagick-dev-compat groff imagemagick-6.q16hdri imagemagick-common libchart-gnuplot-perl libgraphics-magick-perl libgraphicsmagick++-q16-12 libgraphicsmagick++1-dev
+apt install nodejs
 ```
 
-</details>
-
-<details>
-<summary>7. INSTALLING NODEJS & Taylor</summary>
-
+### 3. Install Dependencies
 ```bash
-ubuntu
-curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
-apt install -y nodejs gcc g++ make
-git clone https://github.com/AyGemuy/Taylor-V2/
-cd Taylor-master
-npm install
-npm update
+npm install --legacy-peer-deps
 ```
 
-</details>
-
-<details>
-<summary>8. FOR WINDOWS/VPS/RDP USER 💻</summary>
-
-* Download And Install Git [`Click Here`](https://git-scm.com/downloads)
-* Download And Install NodeJS [`Click Here`](https://nodejs.org/en/download)
-* Download And Install FFmpeg [`Click Here`](https://ffmpeg.org/download.html) (**Don't Forget Add FFmpeg to PATH enviroment variables**)
-* Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
-
+### 4. Menjalankan Bot
 ```bash
-git clone https://github.com/AyGemuy/Taylor-V2/
-cd Taylor-master
-npm install
-npm update
+# Menggunakan QR Code
+node . index.js --qr
+
+# Atau menggunakan Pairing Code
+node . index.js --pairing
 ```
 
-</details>
+## ✨ Fitur
 
-<details>
-<summary>9. Run 📛</summary>
+1. **Manajemen Pengingat**
+   - Membuat pengingat baru dengan berbagai format waktu
+   - Melihat daftar pengingat aktif
+   - Menghapus pengingat berdasarkan ID
 
+2. **Format Waktu yang Didukung**
+   - Standard (DD/MM/YYYY|HH:mm)
+   - Relatif (hari ini, besok, minggu depan)
+   - Short Date (DD/MM HH:mm)
+   - Natural Date (DD bulan HH:mm)
+
+3. **Fitur Keamanan**
+   - Enable/Disable per grup
+   - Validasi format waktu
+   - Pencegahan pengingat waktu lampau
+
+## 🎯 Penggunaan
+
+### Perintah Dasar
 ```bash
-node .
+# Mengaktifkan/Menonaktifkan Todoist
+.todoist on
+.todoist off
+
+# Membuat Pengingat Baru
+.todoist <pesan> <waktu>
+
+# Melihat Daftar Pengingat
+.listtodoist
+
+# Menghapus Pengingat
+.deltodoist <task_id>
 ```
 
-</details>
-
-<details>
-<summary>10. Arguments node . [--options] [&lt;session name&gt;]</summary>
-
-* `--self`
-  * Activate self mode (Ignores other)
-  
-* `--pconly`
-  * If that chat not from private bot, bot will ignore
-  
-* `--gconly`
-  * If that chat not from group, bot will ignore
-  
-* `--swonly`
-  * If that chat not from status, bot will ignore
-  
-* `--prefix &lt;prefixes&gt;`
-  * `prefixes` are seperated by each character
-  * Set prefix
-  
-* `--server`
-  * Used for [heroku](https://heroku.com/) or scan through website
-  
-* `--restrict`
-  * Enables restricted plugins (which can lead your number to be **banned** if used too often)
-  * Group Administration `add, kick`
-  
-* `--img`
-  * Enable image inspector through terminal
-  
-* `--autoread`
-  * If enabled, all incoming messages will be marked as read
-  
-* `--nyimak`
-  * No bot, just print received messages and add users to database
-  
-* `--test`
-  * **Development** Testing Mode
-
-</details>
-
-<details>
-<summary>11. How To Customise Message Display</summary>
-
-```js
-// Syntax
-conn.sendButton(
-      jid, // jid of the user to send the message to
-      text, // text to send
-      footer, // footer to send
-      buffer, // buffer to send (optional), if you want to send button image, location, etc
-      buttons, // buttons to send, example [['text1', 'id1'], ['text2', 'id2']]
-      quoted, // quoted message to send (optional)
-      options // options to send, example { asLocation: true }
-)
-
-// example 
-conn.sendButton(m.chat, 'Hello world!', '@BochilGaming', null, [
-      ['Hello', 'hello'], ['Bye', 'bye']
-])
-// example button location
-conn.sendButton(m.chat, 'Hello world!', '@BochilGaming', 'https://github.com/BochilGaming', 
-     
-
- [['Hello', 'hello'], ['Bye', 'bye']], 
-      null, { asLocation: true }
-)
+### Contoh Format Waktu
+```bash
+.todoist Kerjakan PR Matematika 25/10/2024|14:30
+.todoist Meeting dengan client hari ini jam 16:00
+.todoist Rapat tim besok jam 09:00
+.todoist Deadline project 25 oktober 16:45
 ```
 
-</details>
+## 🏗 Arsitektur & Logika Program
 
-<details>
-<summary>12. 📮 S&K</summary>
+Berikut adalah penjelasan detail tentang komponen-komponen utama dalam program:
 
-1. Jangan diperjual belikan Script ini
-2. Sebelum pakai jangan lupa kasih star
-3. Follow Github !
-4. Jangan salah gunakan script ini!
-5. Jangan lupa Subscribe Youtube
-6. Jika ada eror di sc hub Wudysoft
+### 1. Class TodoistManager (Pengelola Data Utama)
+Class utama yang menangani semua operasi Todoist:
 
-</details>
+```javascript
+class TodoistManager {
+    constructor(filename) {
+        this.filename = filename;
+        this.data = {
+            todos: {},  // Format: { chatId: { taskId: { message, time, sender } } }
+            settings: {} // Format: { chatId: { enabled: boolean } }
+        };
+        this.initialize();
+    }
+    // Constructor untuk inisialisasi
+    initialize() {
+        try {
+            const dir = dirname(this.filename);
+            if (!existsSync(dir)) {
+                mkdirSync(dir, { recursive: true });
+            }
+            this.loadData();
+        } catch (error) {
+            console.error('Error initializing TodoistManager:', error);
+            this.data = { todos: {}, settings: {} };
+            this.saveData();
+        }
+    }
 
-<details>
-<summary>13. Thanks to ✨</summary>
+    // Menyimpan data ke file JSON
+    saveData() {
+        try {
+            writeFileSync(this.filename, JSON.stringify(this.data, null, 2));
+        } catch (error) {
+            console.error('Error saving data:', error);
+        }
+    }
 
-* [`Allah SWT`](https://github.com/AyGemuy/Taylor-V2)
-* [`My parents`](https://github.com/AyGemuy/Taylor-V2)
-* [`All Friends`](https://github.com/AyGemuy/Taylor-V2)
-* [`All Contributors`](https://github.com/AyGemuy/Taylor-V2)
-* [`All Creator Bot`](https://github.com/AyGemuy/Taylor-V2)
+    // Menambah pengingat baru
+    addTodo(chatId, sender, message, time) {
+        if (!chatId || !sender || !message || !time) {
+            throw new Error('Missing required parameters');
+        }
+    
+        if (!this.isEnabled(chatId)) {
+            throw new Error('Todoist tidak aktif. Gunakan ".todoist on" untuk mengaktifkan');
+        }
+    
+        const taskId = Date.now().toString();
+        if (!this.data.todos[chatId]) {
+            this.data.todos[chatId] = {};
+        }
+    
+        this.data.todos[chatId][taskId] = {
+            message,
+            time,
+            sender
+        };
+    
+        this.saveData();
+        return taskId;
+    }
+}
+```
 
-</details>
+### 2. Pengiriman Pengingat (Reminder Handler)
+```javascript
+async function sendReminder(conn, chatId, taskId, todoData) {
+    try {
+        const reminderKey = `${chatId}-${taskId}-${todoData.time}`;
+        
+        // Mencegah pengiriman ganda
+        if (sentReminders.has(reminderKey)) {
+            console.log(`[TODOIST] Reminder ${reminderKey} already sent, skipping`);
+            return;
+        }
 
-[![Anurag’s github stats](https://github-readme-stats.vercel.app/api?username=AyGemuy&show_icons=true&theme=shades-of-purple&hide_border=true)](https://github.com/AyGemuy)
+        sentReminders.add(reminderKey);
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AyGemuy&show_icons=true&theme=tokyonight&hide_border=true)](https://github.com/AyGemuy)
+        // Format pesan pengingat
+        const dateTime = new Date(todoData.time);
+        const dateStr = dateTime.toLocaleString('id-ID', {
+            timeZone: 'Asia/Jakarta',
+            day: '2-digit',
+            month: 'long',
+            year: 'numeric'
+        });
 
-# `Recode By 💌`
+        const timeStr = dateTime.toLocaleString('id-ID', {
+            timeZone: 'Asia/Jakarta',
+            hour: '2-digit',
+            minute: '2-digit',
+            hour12: false
+        });
 
-[![Taylor](https://wsrv.nl/?url=https://github.com/AyGemuy.png?size=100&mask=circle)](https://github.com/AyGemuy)
+        // Membuat pesan pengingat yang terformat
+        const caption = `╭─❑ 「 *PENGINGAT TUGAS* 」 ❑──
+│
+├ 👤 *Untuk:* @${todoData.sender.split("@")[0]}
+├ 📅 *Tanggal:* ${dateStr}
+├ ⏰ *Waktu:* ${timeStr} WIB
+│
+├ 📝 *Pesan:*
+│ ${todoData.message}
+│
+╰─❑ 「 *Todoist* 」 ❑──`;
+
+        // Mengirim pesan WhatsApp
+        await conn.sendMessage(chatId, {
+            text: caption,
+            contextInfo: {
+                mentionedJid: [todoData.sender],
+                externalAdReply: {
+                    title: "⏰ Pengingat Tugas",
+                    body: todoData.message.substring(0, 60) + (todoData.message.length > 60 ? "..." : ""),
+                    mediaType: 1,
+                    previewType: 0,
+                    renderLargerThumbnail: true,
+                    thumbnailUrl: "https://fal.media/files/monkey/vozfKYUEVXqyzPXiYEr8I.png",
+                    sourceUrl: "https://chat.whatsapp.com"
+                }
+            }
+        });
+
+        // Hapus task setelah terkirim
+        this.removeTodo(chatId, taskId);
+
+        // Hapus dari daftar pengingat terkirim setelah 1 menit
+        setTimeout(() => {
+            sentReminders.delete(reminderKey);
+        }, 60000);
+
+    } catch (err) {
+        console.error(`[TODOIST] Failed to send reminder to ${chatId}:`, err);
+        sentReminders.delete(`${chatId}-${taskId}-${todoData.time}`);
+    }
+}
+```
+
+### 3. Sistem Penjadwalan
+```javascript
+function scheduleNextReminder(conn) {
+    const todos = todoManager.getAllTodos();
+    const now = new Date();
+    let nextTask = null;
+    let nextTime = Infinity;
+
+    // Mencari tugas terdekat
+    for (const [chatId, chatTodos] of Object.entries(todos)) {
+        for (const [taskId, todoData] of Object.entries(chatTodos)) {
+            const todoTime = new Date(todoData.time).getTime();
+            const timeUntilReminder = todoTime - now.getTime();
+            
+            if (timeUntilReminder > 0 && timeUntilReminder < nextTime) {
+                nextTask = { chatId, taskId, todoData };
+                nextTime = timeUntilReminder;
+            }
+        }
+    }
+    // ... scheduling logic
+}
+```
+
+### 3. Handler Perintah (Command Handler)
+```javascript
+let handler = async (m, { conn, text, command }) => {
+    try {
+        // Handle berbagai perintah
+        switch (command) {
+            case 'todoist': {
+                // Aktivasi/Deaktivasi Todoist
+                if (text === 'on') {
+                    todoManager.setEnabled(m.chat, true);
+                    m.reply('✅ Todoist telah diaktifkan untuk grup ini!');
+                    return;
+                } else if (text === 'off') {
+                    todoManager.setEnabled(m.chat, false);
+                    m.reply('❌ Todoist telah dinonaktifkan untuk grup ini!');
+                    return;
+                }
+
+                // Proses pembuatan pengingat baru
+                let dateTimeStr = '';
+                let message = '';
+                let matchFound = false;
+
+                // Cek pola waktu yang cocok
+                for (const pattern of Object.values(patterns)) {
+                    const match = text.match(pattern);
+                    if (match) {
+                        dateTimeStr = match[0];
+                        message = text.slice(0, text.lastIndexOf(dateTimeStr)).trim();
+                        matchFound = true;
+                        break;
+                    }
+                }
+
+                // Buat pengingat jika format valid
+                if (matchFound) {
+                    const dateTime = parseDateTime(dateTimeStr);
+                    const taskId = todoManager.addTodo(m.chat, m.sender, message, dateTime.toISOString());
+                    // ... handle sukses
+                }
+                break;
+            }
+            
+            case 'listtodoist': {
+                const todos = todoManager.getTodos(m.chat);
+                // ... tampilkan daftar pengingat
+                break;
+            }
+            
+            case 'deltodoist': {
+                const deleted = todoManager.removeTodo(m.chat, text);
+                // ... handle hasil penghapusan
+                break;
+            }
+        }
+    } catch (error) {
+        console.error('[TODOIST] Error in handler:', error);
+        m.reply(`❌ Terjadi kesalahan saat memproses perintah`);
+    }
+};
+```
+
+### 4. Parser Waktu (DateTime Parser)
+```javascript
+function parseDateTime(input) {
+    const patterns = {
+        standard: /\d{1,2}\/\d{1,2}\/\d{4}\|\d{1,2}:\d{1,2}$/,
+        tomorrow: /besok(?:\s+jam)?\s+\d{1,2}[:.]\d{1,2}$/,
+        nextWeek: /minggu\s+depan(?:\s+jam)?\s+\d{1,2}[:.]\d{1,2}$/,
+        today: /hari\s+ini(?:\s+jam)?\s+\d{1,2}[:.]\d{1,2}$/,
+        shortDate: /\d{1,2}\/\d{1,2}\s+\d{1,2}[:.]\d{1,2}$/,
+        naturalDate: /\d{1,2}\s+(?:jan|feb|mar|apr|mei|jun|jul|ags|sep|okt|nov|des)[a-z]*\s+\d{1,2}[:.]\d{1,2}$/
+    };
+    // Pattern matching untuk berbagai format waktu
+    let dateObj;
+
+    switch (matchedPattern) {
+        case 'standard': {
+            // Format: DD/MM/YYYY|HH:mm
+            const [date, time] = input.split('|');
+            const [day, month, year] = date.trim().split('/');
+            const [hours, minutes] = time.trim().split(':');
+
+            dateObj = new Date(Date.UTC(
+                parseInt(year),
+                parseInt(month) - 1,
+                parseInt(day),
+                parseInt(hours) - 7, // Konversi ke WIB
+                parseInt(minutes)
+            ));
+            break;
+        }
+
+        case 'tomorrow': {
+            // Format: besok jam HH:mm
+            const [hours, minutes] = input.match(/\d{1,2}[:.]\d{1,2}$/)[0].split(/[:.]/);
+            dateObj = new Date(Date.UTC(
+                now.getUTCFullYear(),
+                now.getUTCMonth(),
+                now.getUTCDate() + 1,
+                parseInt(hours) - 7,
+                parseInt(minutes)
+            ));
+            break;
+        }
+
+        case 'natural': {
+            // Format: DD bulan HH:mm
+            const match = input.match(/(\d{1,2})\s+([a-z]+)\s+(\d{1,2})[:](\d{1,2})/);
+            const month = monthNames[match[2].substring(0, 3)];
+            dateObj = new Date(Date.UTC(
+                now.getUTCFullYear(),
+                month,
+                parseInt(match[1]),
+                parseInt(match[3]) - 7,
+                parseInt(match[4])
+            ));
+            break;
+        }
+        // ... more cases
+    }
+
+    if (isNaN(dateObj.getTime())) {
+        throw new Error('Tanggal atau waktu tidak valid');
+    }
+
+    return dateObj;
+}
+```
+
+### 5. Helper Functions
+```javascript
+// Konversi waktu UTC ke WIB
+function formatToWIB(date) {
+    return new Date(date).toLocaleString('id-ID', {
+        timeZone: 'Asia/Jakarta',
+        day: '2-digit',
+        month: '2-digit',
+        year: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false
+    });
+}
+
+// Format countdown untuk display
+function formatCountdown(ms) {
+    const seconds = Math.floor(ms / 1000);
+    const minutes = Math.floor(seconds / 60);
+    const hours = Math.floor(minutes / 60);
+    const days = Math.floor(hours / 24);
+
+    return `${days}d ${hours % 24}h ${minutes % 60}m ${seconds % 60}s`;
+}
+```
+
+### 6. Teknologi dan Fitur Khusus
+
+1. **Persistent Storage**
+   - Menggunakan sistem file JSON untuk menyimpan data
+   - Auto-backup dan recovery system
+   - Struktur data yang terorganisir per chat group
+
+2. **Time Management**
+   - Support multiple time zones (UTC to WIB conversion)
+   - Natural language date parsing
+   - Intelligent scheduling system
+
+3. **Error Handling**
+   - Robust error catching dan recovery
+   - Verbose logging untuk debugging
+   - Failsafe mechanisms untuk mencegah duplikasi
+
+4. **Performance Optimizations**
+   - Efficient reminder scheduling
+   - Memory management untuk large-scale usage
+   - Cleanup mechanisms untuk old data
+
+## 📁 Konten File
+
+File `owner-todoist.js` terletak di `/root/Todoist/plugins/Owner` dan terdiri dari beberapa komponen utama:
+
+1. **Data Management**
+   - File-based JSON storage
+   - CRUD operations untuk pengingat
+   - Settings management per grup
+
+2. **Time Processing**
+   - Parsing berbagai format waktu
+   - Konversi zona waktu (UTC ke WIB)
+   - Validasi waktu
+
+3. **Reminder System**
+   - Scheduling algorithm
+   - Auto-deletion setelah reminder terkirim
+   - Duplicate prevention
+
+4. **Message Handling**
+   - Command parsing
+   - Error handling
+   - Response formatting
+
+## 🤝 Kontribusi
+
+Kontribusi selalu diterima! Silakan buat Pull Request untuk perbaikan atau penambahan fitur.
+
+## 📝 Catatan
+
+- Pastikan bot memiliki izin admin di grup untuk mengirim pengingat
+- Backup database secara berkala
+- Perhatikan penggunaan memori saat menambahkan banyak pengingat
+
+---

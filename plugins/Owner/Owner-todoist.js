@@ -4,7 +4,6 @@ import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-// Track sent reminders to prevent duplicates
 const sentReminders = new Set();
 let connGlobal;
 
@@ -174,7 +173,7 @@ class TodoistManager {
     ├ 📝 *Pesan:*
     │ ${todoData.message}
     │
-    ╰─❑ 「 *Ashbornaru* 」 ❑──
+    ╰─❑ 「 *Todoist* 」 ❑──
     
     _Ketik *.todoist* untuk membuat pengingat baru_`;
 
@@ -194,7 +193,7 @@ class TodoistManager {
                 }
             });
 
-            // Remove the todo after successfully sending reminder
+            // Menghapus Task ketika pengingat sudah dikirim
             this.removeTodo(chatId, taskId);
 
             setTimeout(() => {
@@ -341,7 +340,7 @@ function parseDateTime(input) {
 
 
 
-// Function to format date to WIB timezone
+// Function ngerubah UTC ke WIB
 function formatToWIB(date) {
     return new Date(date).toLocaleString('id-ID', {
         timeZone: 'Asia/Jakarta',
@@ -354,7 +353,7 @@ function formatToWIB(date) {
     });
 }
 
-// Function to format countdown
+// Function to format penghitungan
 function formatCountdown(ms) {
     const seconds = Math.floor(ms / 1000);
     const minutes = Math.floor(seconds / 60);
@@ -410,7 +409,7 @@ function scheduleNextReminder(conn) {
             console.log(`[TODOIST] Scheduling next reminder for task ${nextTask.taskId} in ${nextTime / 1000} seconds.`);
             setTimeout(() => {
                 todoManager.sendReminder(conn, nextTask.chatId, nextTask.taskId, nextTask.todoData);
-                scheduleNextReminder(conn); // Jadwalkan tugas berikutnya
+                scheduleNextReminder(conn); // ngejadwalkan tugas berikutnya
             }, nextTime);
         } else {
             console.log("[TODOIST] No upcoming reminders to schedule.");
@@ -503,7 +502,7 @@ let handler = async (m, { conn, text, command }) => {
                     return;
                 }
 
-                // Cari pola waktu di akhir pesan
+                // List pola waktu di akhir pesan
                 const patterns = {
                     standard: /\d{1,2}\/\d{1,2}\/\d{4}\|\d{1,2}:\d{1,2}$/,
                     tomorrow: /besok(?:\s+jam)?\s+\d{1,2}[:.]\d{1,2}$/,

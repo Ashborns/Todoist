@@ -37,12 +37,12 @@ const {
   name,
   author
 } = require(join(__dirname, "./package.json"));
-say("Bot Whatsapp MD", {
+say("Project 6", {
   font: "chrome",
   align: "center",
   gradient: ["blue", "green"]
 });
-const taylorImage = fs.readFileSync(join(__dirname, "images/robot.png"));
+const taylorImage = fs.readFileSync(join(__dirname, "images/robot.jpg"));
 let isRunning = !1,
   server = null;
 async function start(file) {
@@ -112,7 +112,7 @@ async function start(file) {
   console.table(tableData, ["Folder", "Total Files"], ["color: yellow; background-color: blue; border-radius: 10px;", "color: green; background-color: yellow; border-radius: 10px;"]),
     console.log(chalk.blue.bold("\n⏰ Current Time"));
   const currentTime = new Date().toLocaleString();
-  console.log(chalk.cyan(`${currentTime}`)), say("Taylor-V2", {
+  console.log(chalk.cyan(`${currentTime}`)), say("Todoist", {
     font: "chrome",
     align: "center",
     gradient: ["blue", "green"]

@@ -319,7 +319,7 @@ const handler = async (m, {
       return;
     }
     db.data.dbbot.temamenu = db.data.dbbot.temamenu || {
-      id: 6
+      id: 1
     };
     const {
       id
@@ -460,7 +460,7 @@ const handler = async (m, {
       }
       break;
       default:
-        db.data.dbbot.temamenu.id = 6;
+        db.data.dbbot.temamenu.id = 1;
     }
     m.react(sukses);
   } catch (e) {

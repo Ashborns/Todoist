@@ -1,7 +1,7 @@
 {
-    "name": "taylor",
+    "name": "Todoist",
     "version": "0.0.1",
-    "description": "Free WhatsApp Bot Multi Device With ESM Module",
+    "description": "Todoist using Whatsapp app",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -27,16 +27,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/AyGemuy",
+    "homepage": "https://github.com/Ashborns",
     "author": {
-        "name": "AyGemuy"
+        "name": "Fathi"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/AyGemuy/Taylor-V2.git"
+        "url": "git@github.com:Ashborns/Todoist.git"
     },
     "bugs": {
-        "url": "https://github.com/AyGemuy/Taylor-V2/issues"
+        "url": "-"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
