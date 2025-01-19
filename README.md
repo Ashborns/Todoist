@@ -2,6 +2,16 @@
 
 Sebuah plugin pengingat tugas (reminder) yang powerful untuk WhatsApp Bot, memungkinkan pengguna untuk membuat, mengelola, dan menerima pengingat tugas secara otomatis.
 
+## 👥 Tim Pengembang (Project 6)
+Project: Aplikasi Pengingat Harian Todoist
+
+Anggota:
+- Muhammad Fathi Aryasatya (20230801153)
+- Fuzail Fazle Rabbi (20230801167)
+- Ananda Rizky M (20230801097)
+- Marchello Kristy Wijaya (20230801013)
+- Valentino Wijaya (20230801142)
+
 ## 📋 Daftar Isi
 - [Prasyarat](#prasyarat)
 - [Instalasi](#instalasi)
@@ -20,8 +30,13 @@ Sebuah plugin pengingat tugas (reminder) yang powerful untuk WhatsApp Bot, memun
 
 ## ⚙️ Instalasi
 
-### 1. Setup Ubuntu Dependencies
+### 1. Clone Repository
+```bash
+git clone git@github.com:Ashborns/Todoist.git
+cd Todoist
+```
 
+### 2. Setup Ubuntu Dependencies
 ```bash
 apt update && apt full-upgrade
 apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev \
@@ -36,17 +51,17 @@ imagemagick-6.q16hdri imagemagick-common libchart-gnuplot-perl libgraphics-magic
 libgraphicsmagick++-q16-12 libgraphicsmagick++1-dev
 ```
 
-### 2. Install Node.js
+### 3. Install Node.js
 ```bash
 apt install nodejs
 ```
 
-### 3. Install Dependencies
+### 4. Install Dependencies
 ```bash
 npm install --legacy-peer-deps
 ```
 
-### 4. Menjalankan Bot
+### 5. Menjalankan Bot
 ```bash
 # Menggunakan QR Code
 node . index.js --qr
